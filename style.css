@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+label {
+    margin-bottom: 5px;
+}
+
+.top-half{
+    background: linear-gradient(to right, #ececec4d, #01743e6d);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 32px;
+}
+
+.heading {
+    font-size: 58;
+    font-weight: 300;
+}
+
+.heading-description{
+    font-size:19px;
+    font-weight: 300;
+}
+
+.btn-outline-info {
+    width: 100%;
+}
+
+#renderCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newCard {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.bottom-half {
+    margin-top: 70px;
+}
+
+.form-part{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.heading-box {
+    border: 5px solid rgba(38, 95, 128, 0.197);
+    border-top-style: solid;
+    border-right-style:hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+}
