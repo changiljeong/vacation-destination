@@ -71,3 +71,21 @@ function createCard(destination, location, photo, description) {
 }
 
 export {createCard}
+
+
+
+// function show() {
+//   var content="<b>All Elements of the Arrays :</b><br>";
+//   for(var i = 0; i < title.length; i++) {
+//      content +=title[i]+"<br>";
+//   }
+//   for(var i = 0; i < names.length; i++) {
+//      content +=names[i]+"<br>";
+//   }
+//   for(var i = 0; i < tickets.length; i++) {
+//      content +=tickets[i]+"<br>";
+//   }
+//   document.getElementById('display').innerHTML = content; //note that I changed 
+//                                                     //to 'display' because that's
+//                                               //what you have in your markup
+// }

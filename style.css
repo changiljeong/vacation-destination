@@ -4,9 +4,43 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
     padding:0;
     overflow-x: hidden;
-    /* background: linear-gradient(to bottom, #dbdbdba0, #c5a7e420); */
     background: linear-gradient(to bottom, #ececec2e, #09693c37);
+    animation: color 20s infinite linear;
+    text-align: center;
+    padding: 2em;
 }
+
+
+
+body {
+    background: linear-gradient(0deg, #10daa748, #10b2da3e, #d5d6d68a);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:43% 0%}
+    50%{background-position:58% 100%}
+    100%{background-position:43% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:43% 0%}
+    50%{background-position:58% 100%}
+    100%{background-position:43% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:43% 0%}
+    50%{background-position:58% 100%}
+    100%{background-position:43% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:43% 0%}
+    50%{background-position:58% 100%}
+    100%{background-position:43% 0%}
+}
+
 
 
 
@@ -20,6 +54,10 @@ label {
     padding-top: 10px;
     padding-bottom: 70px;
     margin-bottom: 32px;
+}
+
+.navbar-inner {
+    background-color:transparent;
 }
 
 
