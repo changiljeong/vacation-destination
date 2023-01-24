@@ -13,7 +13,7 @@ function formSubmitted(event) {
   // (3) and destructure object with desired variable name. 
   for (var i = 0; i < inputs.length; i++) {
     userInputObj[inputs[i].id] = inputs[i].value;}
-  const {destination, location, photo, description } = userInputObj;
+  const {destination, location, description } = userInputObj;
 
   // Store input values from the form in a variable. 
   // let destination = event.target.elements["destination"].value;
@@ -27,7 +27,7 @@ function formSubmitted(event) {
   // REFACTORED: changed from innerHTML to innnerText (associated security issues & simple text)
   document.querySelector("#wishlistTitle").innerText = "My WishList";
   // Will append the individual card via calling "createCard" function. 
-  document.querySelector("#renderCardContainer").appendChild(createCard(destination, location, photo, description));
+  document.querySelector("#renderCardContainer").appendChild(createCard(destination, location, description));
 }
 
 export {formSubmitted};
